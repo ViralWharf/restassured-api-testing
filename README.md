@@ -67,20 +67,21 @@ Esta arquitectura permite:
 
 ## Ejecución de Módulos
 
-```bash
+```
 Ejecutar todas las pruebas:
-mvn clean test
+`mvn clean test`
 
 Ejecutar una clase específica:
-mvn test -Dtest=NombreDeLaClaseTest
+`mvn test -Dtest=NombreDeLaClaseTest`
 
 Los reportes y resultados se generan en:
 
 target/
 ├── surefire-reports
 └── extentReport.html
+```
 
-📸 Evidencias
+Evidencias
 <img width="1921" height="958" alt="image" src="https://github.com/user-attachments/assets/48ff9d0a-5a25-49f1-8181-34dde6bc23be" />
 <img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/d4c047de-66ec-4cea-a609-2225b51467f3" />
 
