@@ -69,10 +69,10 @@ Esta arquitectura permite:
 
 ```
 Ejecutar todas las pruebas:
-`mvn clean test`
+mvn clean test
 
 Ejecutar una clase específica:
-`mvn test -Dtest=NombreDeLaClaseTest`
+mvn test -Dtest=NombreDeLaClaseTest
 
 Los reportes y resultados se generan en:
 
